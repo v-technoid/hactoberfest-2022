@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Oleo+Script+Swash+Caps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Oleo+Script+Swash+Caps&family=Roboto+Mono:ital,wght@1,200&family=Titillium+Web:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Oleo+Script+Swash+Caps&family=Roboto+Mono:ital,wght@1,200&family=Titillium+Web:ital,wght@1,600&display=swap");
+.site {
+  display: flex;
+  height: auto;
+}
+.start {
+  text-align: center;
+  padding-right: 35px;
+  padding-top: 30px;
+  font-size: 25px;
+  font-weight: 400;
+  color: red;
+}
+@media screen and (min-width: 768px) {
+  .start {
+    text-align: center;
+    padding-right: 5px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 400;
+    color: red;
+  }
+}
+@media screen and (min-width: 768px) {
+  nav {
+    height: fit-content;
+    width: max-content;
+  }
+  .info {
+    padding-left: 70px;
+  }
+  .content {
+    height: fit-content;
+    width: fit-content;
+  }
+  .site {
+    height: 768px;
+    overflow: auto;
+  }
+  nav li {
+    padding: 35px 16px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  nav li {
+    height: min-content;
+    width: min-content;
+
+    text-align: center;
+    padding: 4px 2px;
+    font-size: 7px;
+  }
+
+  #greet {
+    font-size: 11px;
+  }
+  #name {
+    font-size: 20px;
+  }
+  #job {
+    font-size: 1px;
+  }
+  .content {
+    font-size: 2px;
+  }
+  .sidebar {
+    display: block;
+    font-size: 1px;
+    width: 1vw;
+  }
+  #image {
+    height: 5px;
+  }
+  #st {
+    font-size: 7px;
+  }
+  .start {
+    font-size: 9px;
+  }
+  .info {
+    font-size: 1px;
+  }
+  .greet {
+    text-align: left;
+    font-size: 1px;
+  }
+  .site {
+    display: flex;
+    height: min-content;
+    overflow: scroll;
+  }
+}
+@media screen and (max-width: 2560px) and (min-width: 2559px) {
+  nav li {
+    height: fit-content;
+    width: max-content;
+    overflow: hidden;
+    text-align: center;
+    padding: 70px 16px;
+    font-size: 25px;
+  }
+  .sidebar {
+    display: block;
+    font-size: 100px;
+    width: 80vw;
+  }
+  .info {
+    font-size: 100px;
+  }
+  .image {
+    width: 1000px;
+    height: 1000px;
+  }
+  .greet {
+    text-align: left;
+  }
+  .content {
+    font-size: 5500px;
+  }
+  .site {
+    display: flex;
+    height: max-content;
+    width: max-content;
+    font-size: 550px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 766px) {
+  nav li {
+    height: fit-content;
+    width: max-content;
+    overflow: hidden;
+    text-align: center;
+    padding: 58px 16px;
+    font-size: 25px;
+  }
+  .sidebar {
+    display: block;
+    font-size: 100px;
+    width: 80vw;
+  }
+  .info {
+    font-size: 190px;
+  }
+  .greet {
+    text-align: center;
+  }
+  .site {
+    display: flex;
+    height: max-content;
+    overflow: scroll;
+  }
+}
+
+.prof {
+  text-align: center;
+  padding-right: 35px;
+  font-size: 17px;
+  color: red;
+}
+.sidebar {
+  background-color: rgb(0, 0, 0);
+  width: fit-content;
+  padding: 0px;
+  color: white;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+}
+.image {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+  padding-bottom: 35px;
+  padding-top: 25px;
+  /* padding-left: 55px; */
+}
+.greet {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 30px;
+}
+p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  font-style: italic;
+  padding-left: 25px;
+}
+#imgg {
+  border-style: none;
+  padding-left: 50px;
+}
+
+.site2 {
+  background-color: rgb(180, 210, 180);
+  display: flex;
+}
+#navbar {
+  border-bottom: 10px;
+  border-color: aqua;
+  border-style: solid;
+}
+
+.job {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  padding-right: 45px;
+}
+.content {
+  display: flex;
+  background-color: rgb(180, 210, 180);
+  height: fit-content;
+  width: fit-content;
+  padding-left: 30px;
+  padding-top: 150px;
+
+  /* justify-content: space-around; */
+}
+body {
+  overflow: auto;
+}
+
+.name {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 1000;
+  font-size: 50px;
+}
+.image img {
+  width: 361px;
+  height: 320px;
+  border-style: solid;
+}
+img {
+  border: 10px solid;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+li:hover {
+  color: rgb(240, 8, 19);
+}
+.certificates li {
+  font-family: "Koulen", cursive;
+  font-size: 17px;
+  list-style-type: disc;
+  font-weight: 200px;
+}
+
+.certificates ul li {
+  width: 200px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  margin: 1.5em;
+  cursor: text;
+  padding: 1.6em;
+  background: rgb(65, 115, 215);
+  position: relative;
+  color: white;
+  border-radius: 4px;
+}
+
+.certificates ul li:hover {
+  background-color: white;
+  color: rgb(65, 115, 215);
+}
+
+.htmlskill {
+  font-family: "Bebas Neue", cursive;
+  font-size: x-large;
+}
+.htmlskill progress {
+  margin-left: 70px;
+}
+.sumitskill {
+  display: -webkit-inline-flex;
+  height: fit-content;
+  border: 15px;
+  border-color: black;
+  border-style: double;
+  border-width: 15px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-left: 250px;
+  border-color: fuchsia;
+  box-shadow: 5px 20px 20px 30px darkturquoise;
+}
+
+.htmlskill ul {
+  padding-left: 100px;
+  padding-right: 100px;
+  pointer-events: none;
+}
+.prg {
+  padding-left: 50px;
+}
+.app1,
+.app2 {
+  padding-left: 150px;
+  margin: auto;
+  border: 1.5px solid red;
+  padding: 10px;
+}
+.para {
+  text-align: left;
+}
+.apk {
+  font-weight: bold;
+  color: blue;
+  text-align: center;
+}
+.apk a:hover {
+  color: red;
+  background-color: cornsilk;
+}
+img {
+  height: 60px;
+  width: 75px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+}
+.p1 img {
+  height: 300px;
+  width: 450px;
+  float: left;
+  margin-left: 20px;
+}
+#right {
+  float: right;
+  margin-right: 30px;
+}
+.apk li label {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+.p2 img {
+  height: 300px;
+  width: 450px;
+}
+.twitter img {
+  height: 70px;
+  width: 100px;
+}
+.mail img {
+  height: 70px;
+  width: 100px;
+}
+@media screen and (min-width: 768px) {
+  .site {
+    display: flexbox;
+    height: fit-content;
+    width: fit-content;
+  }
+  .prof {
+    text-align: center;
+    padding-right: 5px;
+    font-size: 19px;
+    color: red;
+  }
+}
